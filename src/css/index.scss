@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  font-size: 20px;
+  font-family: "Noto Serif SC", serif;
+}
+header {
+  max-width: 60%;
+  margin-left: 30%;
+  padding: 2em;
+  position: relative;
+  a {
+    color: #ff777c;
+    font-size: 2em;
+    font-family: "Dancing Script", cursive;
+    span {
+      font-size: 1em;
+    }
+  }
+  & ul,
+  li {
+    display: inline-block;
+    padding-left: 1em;
+    color: #555;
+    font-family: "Noto Serif SC", serif;
+  }
+  & ul {
+    position: absolute;
+    right: 2em;
+  }
+}
+.wrapper {
+  display: flex;
+  & .card {
+    width: 15em;
+    height: 28em;
+    background-color: rgb(192, 223, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
+    margin-right: 3em;
+    img {
+      width: 8em;
+      height: 8em;
+      border: 1px solid gray;
+      border-radius: 50%;
+      margin: 2em 0;
+    }
+    h2 {
+      padding: 0 0 1em 0;
+    }
+    div {
+      background-color: #fff;
+      width: 100%;
+      height: 30%;
+      justify-self: self-end;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      & a {
+        font-family: "Noto Sans SC", sans-serif;
+        text-align: center;
+        font-size: 16px;
+        width: 10em;
+        height: 3em;
+        line-height: 3em;
+        border-radius: 3em;
+        color: #fff;
+        background-color: #000;
+      }
+    }
+  }
+  & main {
+    border: 1px solid #e6e6e6;
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 2em;
+    flex: 1;
+    article {
+      h1 {
+        margin-bottom: 1em;
+      }
+      p {
+        line-height: 1.7em;
+      }
+    }
+    .introduce {
+      margin: 2em 0;
+      padding: 1em 0;
+      border-top: 1px solid #e6e6e6;
+      display: flex;
+      .personalInfo {
+        flex: 1;
+        th {
+          text-align: left;
+        }
+        td {
+          padding: 0.3em;
+          padding-left: 3.55em;
+          a {
+            color: #bbb;
+          }
+        }
+      }
+      .skills {
+        flex: 1;
+      }
+    }
+
+    .project {
+      border-top: 1px solid #e6e6e6;
+      img {
+        width: 100%;
+      }
+      span {
+        color: red;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        display: inline-block;
+        width: 5em;
+        height: 2em;
+        text-align: center;
+        line-height: 2em;
+        border-radius: 2em;
+        background-color: #ff777c;
+        margin: 1em 2em;
+        color: #fff;
+      }
+      h1 {
+        padding: 1em 0;
+      }
+    }
+  }
+
+  & span {
+    margin-left: 3em;
+  }
+}
