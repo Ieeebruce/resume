@@ -1,0 +1,32 @@
+@media only screen and (max-width: 950px) {
+    body {
+        font-size: 13px;
+    }
+
+    header {
+        margin-left: 2em;
+        margin-right: 1em;
+
+        ul {
+            display: none;
+        }
+    }
+
+    .wrapper {
+        flex-direction: column;
+
+        .card {
+            width: 100%;
+            margin-right: 0;
+
+            & div a {
+                width: 60vw;
+            }
+        }
+
+        main {
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+}

@@ -93,7 +93,29 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"*,\\n*::before,\\n*::after {\\n  box-sizing: border-box;\\n  margin: 0;\\n  padding: 0; }\\n\\na {\\n  text-decoration: none; }\\n\\nbody {\\n  background-color: #fff;\\n  font-size: 20px;\\n  font-family: \\\"Noto Serif SC\\\", serif; }\\n\\nheader {\\n  max-width: 60%;\\n  margin-left: 30%;\\n  padding: 2em;\\n  position: relative; }\\n  header a {\\n    color: #ff777c;\\n    font-size: 2em;\\n    font-family: \\\"Dancing Script\\\", cursive; }\\n    header a span {\\n      font-size: 1em; }\\n  header ul,\\n  header li {\\n    display: inline-block;\\n    padding-left: 1em;\\n    color: #555;\\n    font-family: \\\"Noto Serif SC\\\", serif; }\\n  header ul {\\n    position: absolute;\\n    right: 2em; }\\n\\n.wrapper {\\n  display: flex; }\\n  .wrapper .card {\\n    width: 15em;\\n    height: 28em;\\n    background-color: #c0dfdd;\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    position: relative;\\n    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);\\n    margin-right: 3em; }\\n    .wrapper .card img {\\n      width: 8em;\\n      height: 8em;\\n      border: 1px solid gray;\\n      border-radius: 50%;\\n      margin: 2em 0; }\\n    .wrapper .card h2 {\\n      padding: 0 0 1em 0; }\\n    .wrapper .card div {\\n      background-color: #fff;\\n      width: 100%;\\n      height: 30%;\\n      justify-self: self-end;\\n      display: flex;\\n      justify-content: center;\\n      align-items: center;\\n      position: absolute;\\n      bottom: 0; }\\n      .wrapper .card div a {\\n        font-family: \\\"Noto Sans SC\\\", sans-serif;\\n        text-align: center;\\n        font-size: 16px;\\n        width: 10em;\\n        height: 3em;\\n        line-height: 3em;\\n        border-radius: 3em;\\n        color: #fff;\\n        background-color: #000; }\\n  .wrapper main {\\n    border: 1px solid #e6e6e6;\\n    margin: 0 auto;\\n    max-width: 50em;\\n    padding: 2em;\\n    flex: 1; }\\n    .wrapper main article h1 {\\n      margin-bottom: 1em; }\\n    .wrapper main article p {\\n      line-height: 1.7em; }\\n    .wrapper main .introduce {\\n      margin: 2em 0;\\n      padding: 1em 0;\\n      border-top: 1px solid #e6e6e6;\\n      display: flex; }\\n      .wrapper main .introduce .personalInfo {\\n        flex: 1; }\\n        .wrapper main .introduce .personalInfo th {\\n          text-align: left; }\\n        .wrapper main .introduce .personalInfo td {\\n          padding: 0.3em;\\n          padding-left: 3.55em; }\\n          .wrapper main .introduce .personalInfo td a {\\n            color: #bbb; }\\n      .wrapper main .introduce .skills {\\n        flex: 1; }\\n    .wrapper main .project {\\n      border-top: 1px solid #e6e6e6; }\\n      .wrapper main .project h1 {\\n        padding: 1em 0; }\\n  .wrapper span {\\n    margin-left: 3em; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"*,\\n*::before,\\n*::after {\\n  box-sizing: border-box;\\n  margin: 0;\\n  padding: 0; }\\n\\n.clearfix::after {\\n  content: \\\"\\\";\\n  display: block;\\n  clear: both; }\\n\\na {\\n  text-decoration: none; }\\n\\nbody {\\n  background-color: #fff;\\n  font-size: 20px;\\n  font-family: \\\"Noto Serif SC\\\", serif; }\\n\\nheader {\\n  margin-left: 30%;\\n  margin-right: 15%;\\n  padding: 2em;\\n  position: relative; }\\n  header > a {\\n    color: #ff777c;\\n    font-size: 2em;\\n    font-family: \\\"Dancing Script\\\", cursive; }\\n    header > a span {\\n      font-size: 1em; }\\n  header ul,\\n  header li {\\n    display: inline-block;\\n    padding-left: 1em;\\n    color: #555;\\n    font-family: \\\"Noto Serif SC\\\", serif; }\\n    header ul a,\\n    header li a {\\n      color: #999; }\\n    header ul a:hover,\\n    header li a:hover {\\n      color: #ff777c; }\\n  header ul {\\n    position: absolute;\\n    right: 2em;\\n    padding-top: 0.5em; }\\n\\n.wrapper {\\n  display: flex; }\\n  .wrapper .card {\\n    width: 15em;\\n    height: 28em;\\n    background-color: #c0dfdd;\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    position: relative;\\n    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);\\n    margin-right: 3em; }\\n    .wrapper .card img {\\n      width: 8em;\\n      height: 8em;\\n      border: 1px solid gray;\\n      border-radius: 50%;\\n      margin: 2em 0; }\\n    .wrapper .card h2 {\\n      padding: 0 0 1em 0; }\\n    .wrapper .card div {\\n      background-color: #fff;\\n      width: 100%;\\n      height: 30%;\\n      justify-self: self-end;\\n      display: flex;\\n      justify-content: center;\\n      align-items: center;\\n      position: absolute;\\n      bottom: 0; }\\n      .wrapper .card div a {\\n        font-family: \\\"Noto Sans SC\\\", sans-serif;\\n        text-align: center;\\n        font-size: 16px;\\n        width: 10em;\\n        height: 3em;\\n        line-height: 3em;\\n        border-radius: 3em;\\n        color: #fff;\\n        background-color: #000; }\\n  .wrapper main {\\n    border: 1px solid #e6e6e6;\\n    margin: 0 auto;\\n    max-width: 50em;\\n    padding: 2em;\\n    flex: 1; }\\n    .wrapper main article h1 {\\n      margin-bottom: 1em; }\\n    .wrapper main article p {\\n      line-height: 1.7em; }\\n    .wrapper main .introduce {\\n      margin: 2em 0;\\n      padding: 1em 0;\\n      border-top: 1px solid #e6e6e6;\\n      display: flex;\\n      flex-wrap: wrap; }\\n      .wrapper main .introduce .personalInfo {\\n        flex: 1; }\\n        .wrapper main .introduce .personalInfo .contactMe {\\n          display: none; }\\n        .wrapper main .introduce .personalInfo th {\\n          text-align: left; }\\n        .wrapper main .introduce .personalInfo td {\\n          padding: 0.3em;\\n          padding-left: 3.55em; }\\n          .wrapper main .introduce .personalInfo td a {\\n            color: #bbb; }\\n      .wrapper main .introduce .skills {\\n        width: 210px;\\n        height: 219px;\\n        margin-right: 3em; }\\n    .wrapper main .line {\\n      border-top: 1px solid #e6e6e6; }\\n      .wrapper main .line h1 {\\n        padding-top: 1em; }\\n      .wrapper main .line > div {\\n        margin: 2em 0; }\\n        .wrapper main .line > div h4 {\\n          margin-bottom: 1em; }\\n    .wrapper main .project img {\\n      width: 100%;\\n      margin-bottom: 1em; }\\n    .wrapper main .project span {\\n      color: red;\\n      margin: 0;\\n      padding: 0; }\\n    .wrapper main .project p {\\n      line-height: 1.7em; }\\n    .wrapper main .project a {\\n      display: inline-block;\\n      width: 5em;\\n      text-align: center;\\n      line-height: 2em;\\n      border-radius: 2em;\\n      background-color: #ff777c;\\n      margin: 1em 2em;\\n      color: #fff;\\n      font-size: 0.7em; }\\n    .wrapper main .project .project-2 .miniPro {\\n      position: relative;\\n      display: inline-block; }\\n      .wrapper main .project .project-2 .miniPro #popover {\\n        border: 1px solid #e6e6e6;\\n        width: 20em;\\n        height: 20em;\\n        background-color: #fefefe;\\n        position: absolute;\\n        bottom: 3em;\\n        display: none; }\\n        .wrapper main .project .project-2 .miniPro #popover a {\\n          cursor: pointer !important; }\\n        .wrapper main .project .project-2 .miniPro #popover.show {\\n          display: block;\\n          transform: all 1s; }\\n        .wrapper main .project .project-2 .miniPro #popover span,\\n        .wrapper main .project .project-2 .miniPro #popover i {\\n          color: #000;\\n          position: absolute; }\\n        .wrapper main .project .project-2 .miniPro #popover span {\\n          top: 0.8em;\\n          left: 1em; }\\n        .wrapper main .project .project-2 .miniPro #popover img {\\n          display: block;\\n          position: absolute;\\n          bottom: 1em;\\n          left: 50%;\\n          transform: translateX(-50%);\\n          width: 5em;\\n          height: 5em; }\\n        .wrapper main .project .project-2 .miniPro #popover i {\\n          top: 0.2em;\\n          right: 0.2em;\\n          font-size: 2em; }\\n    .wrapper main .contact a {\\n      color: #ff777c; }\\n  .wrapper span {\\n    margin-left: 3em; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/media.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/media.scss ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"@media only screen and (max-width: 950px) {\\n  body {\\n    font-size: 13px; }\\n  header {\\n    margin-left: 2em;\\n    margin-right: 1em; }\\n    header ul {\\n      display: none; }\\n  .wrapper {\\n    flex-direction: column; }\\n    .wrapper .card {\\n      width: 100%;\\n      margin-right: 0; }\\n      .wrapper .card div a {\\n        width: 60vw; }\\n    .wrapper main {\\n      max-width: 100%;\\n      margin: 0; } }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/media.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/print.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/print.scss ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"@media print {\\n  body {\\n    font-size: 13px; }\\n  header {\\n    margin-left: 2em;\\n    margin-right: 1em; }\\n    header ul {\\n      display: none; }\\n  .wrapper {\\n    flex-direction: column; }\\n    .wrapper .card {\\n      width: 100%;\\n      margin-right: 0;\\n      height: 240px; }\\n      .wrapper .card div {\\n        display: none; }\\n    .wrapper main {\\n      max-width: 100%;\\n      margin: 0; }\\n      .wrapper main .introduce .contactMe {\\n        display: table-row !important; }\\n      .wrapper main .project > div::after {\\n        content: \\\"\\\";\\n        display: block;\\n        clear: both; }\\n      .wrapper main .project > div > img {\\n        width: 50%;\\n        float: right;\\n        margin-left: 1em; }\\n      .wrapper main .project > div a {\\n        display: none; }\\n      .wrapper main .contact {\\n        display: none; } }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/print.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -2144,6 +2166,17 @@ eval("var guid = __webpack_require__(/*! ./core/guid */ \"./node_modules/zrender
 
 /***/ }),
 
+/***/ "./src/Resume.pdf":
+/*!************************!*\
+  !*** ./src/Resume.pdf ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"Resume.pdf\";\n\n//# sourceURL=webpack:///./src/Resume.pdf?");
+
+/***/ }),
+
 /***/ "./src/css/index.scss":
 /*!****************************!*\
   !*** ./src/css/index.scss ***!
@@ -2152,6 +2185,61 @@ eval("var guid = __webpack_require__(/*! ./core/guid */ \"./node_modules/zrender
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/lib/loader.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/index.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/index.scss?");
+
+/***/ }),
+
+/***/ "./src/css/media.scss":
+/*!****************************!*\
+  !*** ./src/css/media.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/lib/loader.js!./media.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/media.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/media.scss?");
+
+/***/ }),
+
+/***/ "./src/css/print.scss":
+/*!****************************!*\
+  !*** ./src/css/print.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/lib/loader.js!./print.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/css/print.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/print.scss?");
+
+/***/ }),
+
+/***/ "./src/image/canvas.png":
+/*!******************************!*\
+  !*** ./src/image/canvas.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"image/canvas.png\";\n\n//# sourceURL=webpack:///./src/image/canvas.png?");
+
+/***/ }),
+
+/***/ "./src/image/keyboard.png":
+/*!********************************!*\
+  !*** ./src/image/keyboard.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"image/keyboard.png\";\n\n//# sourceURL=webpack:///./src/image/keyboard.png?");
+
+/***/ }),
+
+/***/ "./src/image/miniprogram.png":
+/*!***********************************!*\
+  !*** ./src/image/miniprogram.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"image/miniprogram.png\";\n\n//# sourceURL=webpack:///./src/image/miniprogram.png?");
 
 /***/ }),
 
@@ -2166,6 +2254,17 @@ eval("module.exports = __webpack_require__.p + \"image/touxiang.jpg\";\n\n//# so
 
 /***/ }),
 
+/***/ "./src/image/ui.png":
+/*!**************************!*\
+  !*** ./src/image/ui.png ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"image/ui.png\";\n\n//# sourceURL=webpack:///./src/image/ui.png?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -2174,7 +2273,7 @@ eval("module.exports = __webpack_require__.p + \"image/touxiang.jpg\";\n\n//# so
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index.scss */ \"./src/css/index.scss\");\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _image_touxiang_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./image/touxiang.jpg */ \"./src/image/touxiang.jpg\");\n/* harmony import */ var _image_touxiang_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_touxiang_jpg__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nvar echarts = __webpack_require__(/*! echarts/lib/echarts */ \"./node_modules/echarts/lib/echarts.js\");\r\n__webpack_require__(/*! echarts/lib/chart/radar */ \"./node_modules/echarts/lib/chart/radar.js\");\r\n__webpack_require__(/*! echarts/lib/component/tooltip */ \"./node_modules/echarts/lib/component/tooltip.js\");\r\n__webpack_require__(/*! echarts/lib/component/title */ \"./node_modules/echarts/lib/component/title.js\");\r\nvar myChart = echarts.init(document.getElementById('skills'));\r\nmyChart.setOption({\r\n    textStyle: {\r\n        color: 'rgb(0,0,0)'\r\n    },\r\n    title: {\r\n        text: '技能'\r\n    },\r\n    radar: [\r\n        {\r\n            indicator: [\r\n                {text: 'HTML5', max: 100},\r\n                {text: 'CSS3', max: 100},\r\n                {text: 'JavaScript', max: 100},\r\n                {text: 'Vue', max: 100}\r\n            ],\r\n            radius: 80\r\n        },\r\n \r\n    ],\r\n    series: [\r\n        {\r\n            type: 'radar',\r\n            //  tooltip: {\r\n            //     trigger: 'item'\r\n            // },\r\n            itemStyle: {normal: {areaStyle: {type: 'default'}}},\r\n            data: [\r\n                {\r\n                    value: [60,73,85,40],\r\n                }\r\n            ]\r\n        },\r\n       \r\n    ]\r\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index.scss */ \"./src/css/index.scss\");\n/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_media_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/media.scss */ \"./src/css/media.scss\");\n/* harmony import */ var _css_media_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_media_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_print_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/print.scss */ \"./src/css/print.scss\");\n/* harmony import */ var _css_print_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_print_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _Resume_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Resume.pdf */ \"./src/Resume.pdf\");\n/* harmony import */ var _Resume_pdf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Resume_pdf__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _image_touxiang_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./image/touxiang.jpg */ \"./src/image/touxiang.jpg\");\n/* harmony import */ var _image_touxiang_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_image_touxiang_jpg__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _image_ui_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./image/ui.png */ \"./src/image/ui.png\");\n/* harmony import */ var _image_ui_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_image_ui_png__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _image_keyboard_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./image/keyboard.png */ \"./src/image/keyboard.png\");\n/* harmony import */ var _image_keyboard_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_image_keyboard_png__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _image_canvas_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./image/canvas.png */ \"./src/image/canvas.png\");\n/* harmony import */ var _image_canvas_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_image_canvas_png__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _image_miniprogram_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./image/miniprogram.png */ \"./src/image/miniprogram.png\");\n/* harmony import */ var _image_miniprogram_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_image_miniprogram_png__WEBPACK_IMPORTED_MODULE_8__);\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nvar echarts = __webpack_require__(/*! echarts/lib/echarts */ \"./node_modules/echarts/lib/echarts.js\");\r\n__webpack_require__(/*! echarts/lib/chart/radar */ \"./node_modules/echarts/lib/chart/radar.js\");\r\n__webpack_require__(/*! echarts/lib/component/tooltip */ \"./node_modules/echarts/lib/component/tooltip.js\");\r\n__webpack_require__(/*! echarts/lib/component/title */ \"./node_modules/echarts/lib/component/title.js\");\r\ntx.src = _image_touxiang_jpg__WEBPACK_IMPORTED_MODULE_4___default.a;\r\nprojectOne.src = _image_ui_png__WEBPACK_IMPORTED_MODULE_5___default.a;\r\nprojectTwo.src =  _image_miniprogram_png__WEBPACK_IMPORTED_MODULE_8___default.a;\r\nprojectThree.src = _image_keyboard_png__WEBPACK_IMPORTED_MODULE_6___default.a;\r\nprojectFour.src = _image_canvas_png__WEBPACK_IMPORTED_MODULE_7___default.a;\r\nvar myChart = echarts.init(document.getElementById('skills'));\r\nmyChart.setOption({\r\n    textStyle: {\r\n        color: 'rgb(0,0,0)'\r\n    },\r\n    tooltip: {\r\n        trigger: 'axis'\r\n    },\r\n    title: {\r\n        text: '技能'\r\n    },\r\n    radar: [\r\n        {\r\n            indicator: [\r\n                { text: 'HTML5', max: 100 },\r\n                { text: 'CSS3', max: 100 },\r\n                { text: 'JavaScript', max: 100 },\r\n                { text: 'Vue', max: 100 }\r\n            ],\r\n            center: ['50%','50%'],\r\n            radius:60\r\n        },\r\n\r\n    ],\r\n    series: [\r\n        {\r\n            type: 'radar',\r\n             tooltip: {\r\n                trigger: 'item'\r\n            },\r\n            itemStyle: { normal: { areaStyle: { type: 'default' } } },\r\n            data: [\r\n                {\r\n                    value: [60, 68, 79, 40],\r\n                }\r\n            ]\r\n        },\r\n\r\n    ]\r\n});\r\nlet popover = document.querySelector('#popover');\r\nlet close = document.getElementById('iconclose');\r\nclose.addEventListener('click', function () {\r\n    popover.classList.remove('show');\r\n})\r\nlet miniProgramScan = document.querySelectorAll('.miniPro a');\r\nminiProgramScan[0].addEventListener('click', function () {\r\n    let popoverClass = popover.classList;\r\n    let index = Array.prototype.indexOf.call(popoverClass, 'show');\r\n    if (index > -1) {\r\n        popover.classList.remove('show');\r\n    }\r\n    else {\r\n        popover.classList.add('show');\r\n    }\r\n\r\n})\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

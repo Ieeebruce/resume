@@ -5,41 +5,65 @@
   margin: 0;
   padding: 0;
 }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 a {
   text-decoration: none;
 }
+
 body {
   background-color: #fff;
   font-size: 20px;
   font-family: "Noto Serif SC", serif;
 }
+
 header {
-  max-width: 60%;
   margin-left: 30%;
+  margin-right: 15%;
   padding: 2em;
   position: relative;
-  a {
+
+  &>a {
     color: #ff777c;
     font-size: 2em;
     font-family: "Dancing Script", cursive;
+
     span {
       font-size: 1em;
     }
   }
+
   & ul,
   li {
     display: inline-block;
     padding-left: 1em;
     color: #555;
     font-family: "Noto Serif SC", serif;
+
+    a {
+      color: #999;
+    }
+
+    a:hover {
+      color: #ff777c;
+    }
   }
+
   & ul {
     position: absolute;
     right: 2em;
+    padding-top: 0.5em;
   }
 }
+
 .wrapper {
   display: flex;
+
   & .card {
     width: 15em;
     height: 28em;
@@ -50,6 +74,7 @@ header {
     position: relative;
     box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
     margin-right: 3em;
+
     img {
       width: 8em;
       height: 8em;
@@ -57,9 +82,11 @@ header {
       border-radius: 50%;
       margin: 2em 0;
     }
+
     h2 {
       padding: 0 0 1em 0;
     }
+
     div {
       background-color: #fff;
       width: 100%;
@@ -70,6 +97,7 @@ header {
       align-items: center;
       position: absolute;
       bottom: 0;
+
       & a {
         font-family: "Noto Sans SC", sans-serif;
         text-align: center;
@@ -83,66 +111,160 @@ header {
       }
     }
   }
+
   & main {
     border: 1px solid #e6e6e6;
     margin: 0 auto;
     max-width: 50em;
     padding: 2em;
     flex: 1;
+
     article {
       h1 {
         margin-bottom: 1em;
       }
+
       p {
         line-height: 1.7em;
       }
     }
+
     .introduce {
       margin: 2em 0;
       padding: 1em 0;
       border-top: 1px solid #e6e6e6;
       display: flex;
+      flex-wrap: wrap;
+
       .personalInfo {
         flex: 1;
+
+        .contactMe {
+          display: none;
+        }
+
         th {
           text-align: left;
         }
+
         td {
           padding: 0.3em;
           padding-left: 3.55em;
+
           a {
             color: #bbb;
           }
         }
       }
+
       .skills {
-        flex: 1;
+        width: 210px;
+        height: 219px;
+        margin-right: 3em;
+      }
+    }
+
+    .line {
+      border-top: 1px solid #e6e6e6;
+
+      h1 {
+        padding-top: 1em;
+      }
+
+      &>div {
+        margin: 2em 0;
+
+        h4 {
+          margin-bottom: 1em;
+        }
       }
     }
 
     .project {
-      border-top: 1px solid #e6e6e6;
       img {
         width: 100%;
+        margin-bottom: 1em;
       }
+
       span {
         color: red;
         margin: 0;
         padding: 0;
       }
+
+      p {
+        line-height: 1.7em;
+      }
+
       a {
         display: inline-block;
         width: 5em;
-        height: 2em;
         text-align: center;
         line-height: 2em;
         border-radius: 2em;
         background-color: #ff777c;
         margin: 1em 2em;
         color: #fff;
+        font-size: 0.7em;
       }
-      h1 {
-        padding: 1em 0;
+
+      .project-2 {
+        .miniPro {
+          position: relative;
+          display: inline-block;
+
+          #popover {
+            border: 1px solid #e6e6e6;
+            width: 20em;
+            height: 20em;
+            background-color: #fefefe;
+            position: absolute;
+            bottom: 3em;
+            display: none;
+
+            a {
+              cursor: pointer !important;
+            }
+
+            &.show {
+              display: block;
+              transform: all 1s;
+            }
+
+            span,
+            i {
+              color: #000;
+              position: absolute;
+            }
+
+            span {
+              top: 0.8em;
+              left: 1em;
+            }
+
+            img {
+              display: block;
+              position: absolute;
+              bottom: 1em;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 5em;
+              height: 5em;
+            }
+
+            i {
+              top: 0.2em;
+              right: 0.2em;
+              font-size: 2em;
+            }
+          }
+        }
+      }
+    }
+
+    .contact {
+      a {
+        color: #ff777c
       }
     }
   }

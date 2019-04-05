@@ -33,7 +33,18 @@ module.exports = {
                         limit: 80000, 
                         name: 'image/[name].[ext]',
                         outputPath:'./',
-
+                    },
+                  },
+                ],
+              },
+              {
+                test: /\.(pdf)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                        name: '/[name].[ext]',
+                        outputPath:'./',
                     },
                   },
                 ],

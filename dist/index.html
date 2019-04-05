@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Sans+SC|Noto+Serif+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1126945_6jrwvcrubfr.css">
     <title>Resume</title>
 </head>
 
@@ -13,29 +14,28 @@
     <header>
         <a href="#">RS<span>card</span></a>
         <ul>
-            <li>关于</li>
-            <li>项目</li>
-            <li>经历</li>
-            <li>联系我</li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#project">项目</a></li>
+            <li><a href="#experience">经历</a></li>
+            <li><a href="#contact">联系我</a></li>
         </ul>
     </header>
     <div class="wrapper">
         <div class="card">
-            <img src="http://m.imeitou.com/uploads/allimg/171123/3-1G123203S6-50.jpg" alt="头像">
+            <img id="tx" alt="头像">
             <h2>雷洪涛</h2>
             <p>前端工程师</p>
             <div>
-                <a href="">下载简历</a>
+                <a href="./Resume.pdf" download="雷洪涛-前端工程师">下载简历</a>
             </div>
 
         </div>
         <main>
             <article>
-                <h1>关于</h1>
+                <h1 id="about">关于</h1>
                 <p>你好，我叫雷洪涛。</p>
-                <p>Logo or your Company Name, unless of course you are Microsoft or the Yellow Pages online directorye
-                    core of your marketing, the central theme around your products and services. Your brand is not your
-                    Logo or your Company Name, unless of course you are Microsoft or the Yellow Pages online directory.
+                <p>2014年毕业于河北工业大学通信工程专业。毕业后在城市轨道交通公司从事信号工作。2018年接触到前端，发现自己喜欢技术，热爱 coding。迄今为止几乎所有业余时间都用来敲代码。享受通过 coding
+                    实现自己想要的成果。崇尚代码规范，偏好 Google。
                 </p>
             </article>
             <div class="introduce">
@@ -44,6 +44,14 @@
                         <tr>
                             <th>姓名：</th>
                             <td>雷洪涛</td>
+                        </tr>
+                        <tr class="contactMe">
+                            <th>手机/微信：</th>
+                            <td>15510921745</td>
+                        </tr>
+                        <tr class="contactMe">
+                            <th>邮箱：</th>
+                            <td>ieeebruce@foxmail.com</td>
                         </tr>
                         <tr>
                             <th>学历：</th>
@@ -61,24 +69,77 @@
                             <th>GitHub：</th>
                             <td><a href="//github.com/Ieeebruce">github.com/Ieeebruce</a></td>
                         </tr>
+
                     </table>
                 </div>
                 <div class="skills" id="skills">
                 </div>
             </div>
-            <section class="project">
-                <h1>项目</h1>
-                <div class="project-1">
+            <section class="project line">
+                <h1 id="project">项目</h1>
+                <div class="project-2 clearfix">
+                    <h4>小程序：PM Translation</h4>
+                    <img id="projectTwo" alt="project-2">
+                    <p><strong>项目介绍：</strong>一款提供翻译功能的<span>微信小程序</span>。该项目以<span>百度翻译 API</span>
+                        为服务器域名提供支持，主要包含<span>翻译首页</span>、<span>选择语言页</span>和<span>翻译历史页</span>。项目逻辑简单，页面清新，提供了多种语言选择，欢迎尝试。
+                    </p>
+                    <span class="miniPro clearfix">
+                        <div id="popover">
+                            <span>手机扫一扫</span>
+                            <i id="iconclose" class="iconfont icon-close"></i>
+                            <img id="miniProgram" alt="project-2">
+                        </div>
+                        <a>预览</a>
+                    </span>
+                    <a href="https://github.com/Ieeebruce/mini-program-translation">源码</a>
+                </div>
+                <div>
                     <h4>Vue-UI</h4>
-                    <img src="./image/project.png" alt="project-1">
+                    <img id="projectOne" alt="project-1">
+                    <p><strong>项目介绍：</strong>该项目是参照 Framework7、Ant Design、Element UI、iView 等 UI 库思路，做的一个基于 Vue
+                        的简易<span>UI 组件库</span> ，目前已支持按钮、输入框、网格、布局、Toast、Tabs、Popover等组件。每个组件均经历从需求分析到<span> Mocha
+                            单元测试</span>，并用<span> TravisCI 实现持续集成</span>，最终以 VuePress 为基础制作<span>官方文档</span>，发布于
+                        npmjs.org。完成该项目使我对 Vue 的常用特征更加熟悉，同时提升了自己对前端工程化流程以及单元测试重要性的深刻理解。</p>
+                    <a href="https://ieeebruce.github.io/VUE-wheels/">预览</a>
+                    <a href="https://github.com/Ieeebruce/VUE-wheels">源码</a>
+                </div>
 
+                <div>
+                    <h4>Keyboard 导航</h4>
+                    <img id="projectThree" alt="project-3">
+                    <p><strong>项目介绍：</strong>该项目使用<span>原生JS</span>和<span>CSS3</span>实现。能够<span>鼠标</span>点击或者按下<span>键盘</span>跳转到对应的页面。可以<span>自定义导航网址</span>。提供了<span>两种主题</span>。
+                    </p>
+                    <a href="https://ieeebruce.github.io/Keyboard-nav/index.html">预览</a>
+                    <a href="https://github.com/Ieeebruce/Keyboard-nav">源码</a>
+                </div>
+                <div>
+                    <h4>在线画板</h4>
+                    <img id="projectFour" alt="project-4">
+                    <p><strong>项目介绍：</strong>是一个使用<span>原生 JS</span> 开发的，主要利用 HTML 5 的<span>Canvas API</span>，是我在学习原生 JS
+                        及 Canvas 过程中开发的小工具。 其提供在线画画、橡皮擦、画笔调色、画作删除等功能，并支持画作下载。
+                    </p>
+                    <a href="https://ieeebruce.github.io/canvas-demo/index.html">预览</a>
+                    <a href="https://github.com/Ieeebruce/canvas-demo">源码</a>
                 </div>
             </section>
-            <aside></aside>
+            <section class="line">
+                <h1 id="experience">经历</h1>
+                <div>
+                    <p>2010 - 2014 河北工业大学</p>
+                    <p>2014 - 2017 天津市地下铁道运营有限公司 </p>
+                    <p>2017 - 2019 合肥城市轨道交通有限公司运营分公司</p>
+                </div>
+            </section>
+            <section class="contact line">
+                <h1 id="contact">联系我</h1>
+                <div>
+                        <a href="./Resume.pdf" download="雷洪涛-前端工程师">下载简历</a> OR
+                    <a href="mailto:ieeebruce@foxmail.com">Send email to me</a>
+                </div>
+            </section>
         </main>
         <span></span>
     </div>
-
 <script type="text/javascript" src="bundle.js"></script></body>
 
 </html>

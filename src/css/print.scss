@@ -1,0 +1,59 @@
+@media print {
+    body {
+        font-size: 13px;
+    }
+
+    header {
+        margin-left: 2em;
+        margin-right: 1em;
+
+        ul {
+            display: none;
+        }
+    }
+
+    .wrapper {
+        flex-direction: column;
+
+        .card {
+            width: 100%;
+            margin-right: 0;
+            height: 240px;
+
+            & div {
+                display: none;
+            }
+        }
+
+        main {
+            max-width: 100%;
+            margin: 0;
+
+            .introduce .contactMe {
+                display: table-row !important;
+            }
+
+            .project>div::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            .project>div>img {
+                width: 50%;
+                float: right;
+                margin-left: 1em;
+            }
+
+            .project>div a {
+                display: none;
+            }
+
+            .contact {
+                display: none;
+            }
+        }
+
+    }
+
+}
