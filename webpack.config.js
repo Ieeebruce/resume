@@ -30,7 +30,7 @@ module.exports = {
                   {
                     loader: 'file-loader',
                     options: {
-                        limit: 80000, 
+                        limit: 80, 
                         name: 'image/[name].[ext]',
                         outputPath:'./',
                     },
