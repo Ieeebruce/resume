@@ -17,7 +17,7 @@ a {
 }
 
 body {
-  background-color: #fff;
+  // background-color: rgb(245,245,245);
   font-size: 20px;
   font-family: "Noto Serif SC", serif;
 }
@@ -27,8 +27,12 @@ header {
   margin-right: 15%;
   padding: 2em;
   position: relative;
-
-  &>a {
+  .icon-lineleftclick {
+    font-size: 1.5em;
+    color: #ff777c;
+    display: none;
+  }
+  & > a {
     color: #ff777c;
     font-size: 2em;
     font-family: "Dancing Script", cursive;
@@ -42,7 +46,7 @@ header {
   li {
     display: inline-block;
     padding-left: 1em;
-    color: #555;
+    color: #444;
     font-family: "Noto Serif SC", serif;
 
     a {
@@ -113,12 +117,13 @@ header {
   }
 
   & main {
+    background-color: #fff;
     border: 1px solid #e6e6e6;
     margin: 0 auto;
     max-width: 50em;
     padding: 2em;
     flex: 1;
-
+    box-shadow: 5px -2px 7px 1px rgba(118, 95, 91, 0.34);
     article {
       h1 {
         margin-bottom: 1em;
@@ -171,7 +176,7 @@ header {
         padding-top: 1em;
       }
 
-      &>div {
+      & > div {
         margin: 2em 0;
 
         h4 {
@@ -208,7 +213,7 @@ header {
         font-size: 0.7em;
       }
 
-      .project-2 {
+      .project-mini {
         .miniPro {
           position: relative;
           display: inline-block;
@@ -221,7 +226,10 @@ header {
             position: absolute;
             bottom: 3em;
             display: none;
-
+            #miniProgram {
+              width: 15em;
+              height: 15em;
+            }
             a {
               cursor: pointer !important;
             }
@@ -264,7 +272,7 @@ header {
 
     .contact {
       a {
-        color: #ff777c
+        color: #ff777c;
       }
     }
   }

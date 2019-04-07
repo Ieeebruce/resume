@@ -1,21 +1,25 @@
 import './css/index.scss'
 import './css/media.scss'
 import './css/print.scss'
-import resume from './Resume.pdf'
+import resume from './雷洪涛-前端工程师.pdf'
 import tximg from './image/touxiang.jpg'
 import ui from './image/ui.png'
 import keyboard from './image/keyboard.png'
 import canvas from './image/canvas.png'
-import miniprogram from './image/miniprogram.png'
+import miniprogram from './image/miniprogram.jpg'
+import miniprogram2 from './image/miniprogram2.png'
 var echarts = require('echarts/lib/echarts');
 require("echarts/lib/chart/radar");
 require('echarts/lib/component/tooltip');
 require('echarts/lib/component/title');
+import CanvasNest from 'canvas-nest.js';
+
 tx.src = tximg;
 projectOne.src = ui;
 projectTwo.src =  miniprogram;
 projectThree.src = keyboard;
 projectFour.src = canvas;
+miniProgram.src = miniprogram2;
 var myChart = echarts.init(document.getElementById('skills'));
 myChart.setOption({
     textStyle: {
@@ -73,3 +77,15 @@ miniProgramScan[0].addEventListener('click', function () {
     }
 
 })
+
+
+const config = {
+    color: '255,0,0',
+    count: 88,
+  };
+  const element = document.getElementsByTagName('body')
+  // Using config rendering effect at 'element'.
+  const cn = new CanvasNest(element[0], config);
+  
+  // destroy
+//   cn.destroy();
